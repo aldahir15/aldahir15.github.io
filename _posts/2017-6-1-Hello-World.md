@@ -15,13 +15,11 @@ I will use this canvas to write about my personal life and explanations about th
 Well if anyone is listening,
 See you soon!
 
-{% highlight ruby linenos %}
-def show
-  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+
+Here is some Ruby code.
+
+<pre>
+  <code class="ruby">
+    puts "hello"
+  </code>
+</pre>
