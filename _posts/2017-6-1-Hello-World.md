@@ -2,6 +2,11 @@
 layout: post
 title: (First) Lesson!
 ---
+<head>
+  ...
+  <link href="/css/syntax.css" rel="stylesheet">
+  ...
+</head>
 
 Welcome!
 Just started this blog out of pure boredom and decided I needed to be a bit productive with myself.
