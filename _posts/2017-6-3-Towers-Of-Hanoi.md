@@ -10,10 +10,10 @@ But anyways, let's get into
 **Towers Of Hanoi**
 So we create a class called TowersOfHanoi
 We initialize our starting point which is:
-1 0 0
-2 0 0
-3 0 0
-A B C
+* 1 0 0
+* 2 0 0
+* 3 0 0
+* A B C
 Where the numbers represent discs and how big they are
 ~~~~
 class TowersOfHanoi
