@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RPNCalculator Class!
+title: Towers Of Hanoi!
 ---
 
 Good Saturday to everyone! Today I'll be talking about the Towers of Hanoi class I built.
@@ -14,6 +14,7 @@ We initialize our starting point which is:
 * 2 0 0
 * 3 0 0
 * A B C
+
 Where the numbers represent discs and how big they are
 ~~~~
 class TowersOfHanoi
