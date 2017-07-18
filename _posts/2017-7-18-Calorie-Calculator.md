@@ -62,6 +62,7 @@ end
 Now we're able to start creating our views, it's actually pretty simple since we only need views for new and show.
 I opted on using Bootstrap for this since it makes everything much easier. I also ended up creating a custom.scss file akin to what i've been learning on Micheal Hartl's Ruby on Rails' Tutorial for custom formatting.
 Before starting on our 'new' view I wanted to have a header and footer on this application so I ended up making partials for them and calling them from my application.html.erb layout file.
+
 ~~~~
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container center-block">
@@ -71,6 +72,7 @@ Before starting on our 'new' view I wanted to have a header and footer on this a
   </div>
 </header>
 ~~~~
+
 ~~~~
 <footer class="footer navbar-fixed-bottom">
   <nav>
@@ -81,9 +83,11 @@ Before starting on our 'new' view I wanted to have a header and footer on this a
   </nav>
 </footer>
 ~~~~
+
 Now we're finally able to get started on our 'new' view.
 I ended up wrapping the whole contents of new into a div to allow the forms to be centered.
 I created text fields for: age, height, weight, and body fat. Then for sex, activity level, and pounds to lose I simply used select to be able to chose from a drop down.
+
 ~~~~
 <div class="col-md-6 col-md-offset-3">
   <%= form_for @user do |f| %>
@@ -110,8 +114,10 @@ I created text fields for: age, height, weight, and body fat. Then for sex, acti
   <br>
 </div>
 ~~~~
+
 Now when we click submit, our 'create' action adds our user to our database and can be referenced as '/user/#'. But obviously we aren't able to see this page yet since we haven't added the 'show.html.erb' view yet.
 For 'show' once again I wrapped the contents in a div to center them. Then we call all the parameters from that user to display, then we use some embedded ruby to do several calculations to get our BMI, BMR, TDEE, and lastly the calories we need to eat to lose x pounds per month.
+
 ~~~~
 <br>
 <div class= "containter text-center">
@@ -172,5 +178,6 @@ For 'show' once again I wrapped the contents in a div to center them. Then we ca
   </div>
 </div>
 ~~~~
+
 This is all the calculator can do currently, but I want to add the ability to log in so that you can save your information and reference it later on, also have a graph function so that every time you update your information, you can see an interactive view of how your weight loss is going.
 I'll keep you guys/gals updated with my progress!
