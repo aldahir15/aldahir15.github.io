@@ -63,7 +63,6 @@ Now we're able to start creating our views, it's actually pretty simple since we
 I opted on using Bootstrap for this since it makes everything much easier. I also ended up creating a custom.scss file akin to what i've been learning on Micheal Hartl's Ruby on Rails' Tutorial for custom formatting.
 Before starting on our 'new' view I wanted to have a header and footer on this application so I ended up making partials for them and calling them from my application.html.erb layout file.
 ~~~~
-<!-- app/views/layouts/_header.html.erb -->
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container center-block">
     <div class="span12">
@@ -73,7 +72,6 @@ Before starting on our 'new' view I wanted to have a header and footer on this a
 </header>
 ~~~~
 ~~~~
-<!-- app/views/layouts/_footer.html.erb -->
 <footer class="footer navbar-fixed-bottom">
   <nav>
     <ul>
