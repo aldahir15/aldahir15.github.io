@@ -75,8 +75,8 @@ Before starting on our 'new' view I wanted to have a header and footer on this a
 <footer class="footer navbar-fixed-bottom">
   <nav>
     <ul>
-      <li><a href="http://aldahir15.github.io/">Visit me</a></li>
-      <li><%= mail_to "jamoren1@uci.edu", "Contact" %></li>
+      <li><a href="#">Visit me</a></li>
+      <li><%= mail_to "#", "Contact" %></li>
     </ul>
   </nav>
 </footer>
