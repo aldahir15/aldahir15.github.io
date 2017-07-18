@@ -63,27 +63,6 @@ Now we're able to start creating our views, it's actually pretty simple since we
 I opted on using Bootstrap for this since it makes everything much easier. I also ended up creating a custom.scss file akin to what i've been learning on Micheal Hartl's Ruby on Rails' Tutorial for custom formatting.
 Before starting on our 'new' view I wanted to have a header and footer on this application so I ended up making partials for them and calling them from my application.html.erb layout file.
 
-~~~~
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container center-block">
-    <div class="span12">
-      <%= link_to "Calorie Calculator", root_path, id: "logo" %>
-  </div>
-  </div>
-</header>
-~~~~
-
-~~~~
-<footer class="footer navbar-fixed-bottom">
-  <nav>
-    <ul>
-      <li><a href="#">Visit me</a></li>
-      <li><%= mail_to "#", "Contact" %></li>
-    </ul>
-  </nav>
-</footer>
-~~~~
-
 Now we're finally able to get started on our 'new' view.
 I ended up wrapping the whole contents of new into a div to allow the forms to be centered.
 I created text fields for: age, height, weight, and body fat. Then for sex, activity level, and pounds to lose I simply used select to be able to chose from a drop down.
