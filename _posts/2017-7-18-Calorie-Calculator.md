@@ -2,7 +2,7 @@
 layout: post
 title: Calorie-Calculator
 ---
-https://github.com/aldahir15/CalorieCalculator
+(https://github.com/aldahir15/CalorieCalculator "Project Page") <br />
 Long time, no see. Sorry for the lack of updates on this blog, studying got the best of me.
 Let's get into it. I want to show you guys a recent project I just completed, it's essentially a calorie calculator based on several metrics in order to get a calorie target to lose x amount of weight per month.
 (PS. I hate CSS lol)
