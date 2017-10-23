@@ -285,4 +285,19 @@ footer {
   height: 295px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.third-gif {
+  background-color: #9c4141;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.portfolio-item img{
+  max-width: 1000000px;
+  height: 295px;
 }
