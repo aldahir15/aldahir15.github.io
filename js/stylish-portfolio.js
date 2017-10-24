@@ -17,6 +17,13 @@
     $(".title-overlay2").css("color", "transparent");
   });
 
+  $(".third-gif").hover(function (e) {
+    e.preventDefault();
+    $(".title-overlay3").css("color", "#cf3d3d");
+  }, function () {
+    $(".title-overlay3").css("color", "transparent");
+  });
+
   // Closes the sidebar menu
   $("#menu-close").click(function(e) {
     e.preventDefault();

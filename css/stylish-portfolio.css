@@ -319,3 +319,12 @@ footer {
   font-size: 125px;
   color: transparent;
 }
+
+.title-overlay3 {
+  position: absolute !important;
+  bottom: 50px !important;
+  left: 20px !important;
+  font-size: 55px;
+  padding-right: 20px;
+  color: transparent;
+}
