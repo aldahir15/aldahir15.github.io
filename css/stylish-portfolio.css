@@ -390,3 +390,13 @@ footer {
 .portfolio-modal button {
   margin-top: 20px;
 }
+
+#menu-toggle img {
+  width: 100%;
+  height: auto;
+}
+
+#menu-toggle {
+  width: 8%;
+  height: 12%;
+}
