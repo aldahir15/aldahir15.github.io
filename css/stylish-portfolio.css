@@ -328,3 +328,16 @@ footer {
   padding-right: 20px;
   color: transparent;
 }
+
+.modal-dialog {
+  margin-left: 21%;
+}
+
+.modal-content {
+  width: 150%;
+  text-align: -webkit-center;
+}
+
+.modal-content button {
+  cursor: pointer;
+}
