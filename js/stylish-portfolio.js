@@ -1,6 +1,22 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  $(".first-gif").hover(function(e) {
+    e.preventDefault();
+    $(".title-overlay").css("color", "#cf3d3d").fadeIn(400);
+    $(".first-gif").css("background-color","rgba(60, 99, 99, 0.5)");
+  }, function () {
+    $(".title-overlay").css("color", "transparent");
+    $(".first-gif").css("background-color", "rgba(60, 99, 99, 1)");
+  });
+
+  $(".second-gif").hover(function (e) {
+    e.preventDefault();
+    $(".title-overlay2").css("color", "#cf3d3d");
+  }, function () {
+    $(".title-overlay2").css("color", "transparent");
+  });
+
   // Closes the sidebar menu
   $("#menu-close").click(function(e) {
     e.preventDefault();
