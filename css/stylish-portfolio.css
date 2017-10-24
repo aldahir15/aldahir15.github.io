@@ -298,6 +298,10 @@ footer {
   overflow: hidden;
 }
 
+.portfolio-item {
+  cursor: pointer;
+}
+
 .portfolio-item img{
   max-width: 1000000px;
   height: 295px;
@@ -340,4 +344,49 @@ footer {
 
 .modal-content button {
   cursor: pointer;
+}
+
+.services img {
+  width: 120px;
+  height: 120px;
+}
+
+.about {
+  background-color:#007bff!important;
+  color: white;
+}
+
+.about img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about a {
+  color: white;
+}
+
+.about h5 {
+  text-align: -webkit-auto !important;
+}
+
+.portfolio-modal img {
+  width: 30%;
+  height: auto;
+}
+
+.modal-body h5 {
+  text-align: left !important;
+}
+
+.modal-body p {
+  text-align: left !important;
+}
+
+.portfolio-modal strong{
+  font-size: 80%;
+}
+
+.portfolio-modal button {
+  margin-top: 20px;
 }
