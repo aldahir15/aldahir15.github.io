@@ -1,692 +1,1101 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <!-- ==============================================
+        Title and basic Meta Tags
+        =============================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Jose Moreno</title>
+        <meta name="description" content="personal portfolio landing template">
 
-  <head>
-    <link rel="icon" href="img/icons/portfolio_img.png">
+        <!-- ==============================================
+        Mobile Metas
+        =============================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <!-- ==============================================
+        Favicons
+        =============================================== -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-    <title>Jose Moreno</title>
+        <!-- ==============================================
+        Fonts
+        =============================================== -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro%7cPT+Sans:300,400,600' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- ==============================================
+        CSS
+        =============================================== -->
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-modal-carousel.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/type.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+        <!-- ==============================================
+        JS
+        =============================================== -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-  </head>
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-  <body>
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-      <!-- <i class="fa fa-bars"></i> -->
-      <img src="img/icons/portfolio_img.png" alt="">
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
-          <i class="fa fa-times"></i>
-        </a>
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#top">Jose Moreno</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#top">Home</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#portfolio">Projects</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#services">Skills</a>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
-        </li>
-      </ul>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- Container -->
+        <div class="container">
+            <!-- Logo and stick navbar -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Logo -->
+                 <a class="navbar-brand" href="#page-top"><img src="images/icons/portfolio_img_in.png" class="img-responsive" alt="logo" />
+                    <div class="logo-title"></div>
+                </a>
+
+                <!-- Logo end -->
+            </div>
+    
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#section-home" class="page-scroll">Home</a></li>
+                    <li><a class="page-scroll" href="#section-about">About</a></li>
+                    <li><a class="page-scroll" href="#section-services">Skills</a></li>
+                    <li><a class="page-scroll" href="#work">Projects</a></li>
+                    <li><a class="page-scroll" href="#section-blog">Blog</a></li>
+                   
+                    
+                    <li><a class="page-scroll" href="#section-contact">Contact</a></li>
+                </ul>
+            </div><!-- End navigation links -->
+        </div> 
+        <!-- End container -->
     </nav>
 
-    <!-- Header -->
-    <header class="header" id="top">
-      <div class="text-vertical-center">
-        <h1>Jose Moreno</h1>
-        <h3>Software Engineer</h3>
-        <br>
-        <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More About Me</a>
-      </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-      <div class="container text-center">
-        <a href="https://www.linkedin.com/in/jose-moreno-b4517960/" target="_blank"><img src="img/centered_me.jpg"></a>
-        <h3>Nice to meet you!</h3>
-          <h5>My name is Jose Aldahir Moreno, I am a Software Engineer currently living in the Bay Area. I'm passionate about new and cutting edge technologies and looking for new oportunities to work with energetic teams.
-          My Software Development background starts in 2013 when I first created my own Python tic-tac-toe game and since then I have 
-          immersed myself in different languages and frameworks. Contrasting my first basic python game, I have now worked on building 
-          many projects ranging from full stack web applications to iOS and Android software. </h5>
-          <h5>Feel free to <a href="#contact" class="btn btn-dark js-scroll-trigger">contact me!</a></a>
-        </h5>
-      </div>
-    </section>
-
-    <!-- Callout
-    <aside class="callout">
-      <div class="text-vertical-center">
-        <h1>Vertically Centered Text</h1>
-      </div>
-    </aside> -->
-
-      <!-- Portfolio -->
-        <section id="portfolio" class="portfolio">
-          <div class="container">
+    <!-- section -banner -->
+    <div id="section-home" class="section-intro">
+        <div class="background-overlay grey"></div>
+        <div class="container">
             <div class="row">
-              <div class="col-lg-10 mx-auto text-center">
-                <h2>Projects</h2>
-                <hr class="small">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="portfolio-item first-gif" href="#portfolioModal1" data-toggle="modal">
-                      <a>
-                        <img class="img-portfolio img-fluid gif-fluid" src="https://res.cloudinary.com/dekgrddbo/image/upload/v1508129127/spot_me/reserve_spot_4.gif">
-                        <p class="title-overlay">SpotMe</p>
-                      </a>
+                <div class="col-md-12">
+                    <div class="intro-caption">
+                        <!-- type headline start-->
+                        <h1 class="cd-headline clip is-full-width">
+                            <span>I'm </span>
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">Jose.</b>
+                                <b>a Software Engineer.</b>
+                                <b>a Web Developer.</b>
+                                <b>a Mobile Programmer.</b>
+                                <b>a <img class="react-inv" src="images/icons/react_invis.png" alt=""> Developer.</b>
+                                <b>a <img class="rails-inv" src="images/icons/Rails_invis.png" alt=""> Engineer.</b>
+                            </span>
+                        </h1>
+                        <!-- type headline end -->
+                        <!-- header social icon start -->
+                        <ul class="list-inline nipp-social-icon">
+                            <li><a href="https://github.com/aldahir15"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/jose-moreno-b4517960/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://angel.co/jose-moreno"><i class="fa fa-angellist" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <!-- header media icon end -->
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="portfolio-item second-gif" href="#portfolioModal2" data-toggle="modal">
-                      <a>
-                        <img class="img-portfolio img-fluid" src="https://camo.githubusercontent.com/bb1425fdc3ec35b1379f41e8e42aae6ded5f52f2/68747470733a2f2f7468756d62732e6766796361742e636f6d2f466f726b656442656175746966756c486f726e736861726b2d73697a655f726573747269637465642e676966">
-                        <p class="title-overlay2">Strive</p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="portfolio-item third-gif" href="#portfolioModal3" data-toggle="modal">
-                      <a>
-                        <img class="img-portfolio img-fluid" src="https://thumbs.gfycat.com/UnevenSorrowfulClumber-size_restricted.gif">
-                        <p class="title-overlay3">My Infinity is Bigger Than Your Infinity</p>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- <div class="col-md-6">
-                    <div class="portfolio-item">
-                      <a href="#">
-                        <img class="img-portfolio img-fluid" src="img/portfolio-4.jpg">
-                      </a>
-                    </div>
-                  </div> -->
                 </div>
-                <!-- /.row (nested) -->
-                <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
-              </div>
-              <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-        </section>
+            <!-- row end -->
+        </div>
+        <!-- container end -->
+    </div>
+    <!-- section banner end -->
 
-    <!-- Services -->
-    <section id="services" class="services bg-primary text-white">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-10 mx-auto">
-            <h2>Skills</h2>
+    <!-- section about start -->
+    <section id="section-about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 visible-md visible-lg">
+                    <div class="profile">
+                        <img src="images/icons/cent.png" alt="profile img" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-8 col-xs-12">
+                    <div class="about-wrap">
+                        <h2>Hi! My name is Jose</h2>
+                        <h4>Full-Stack Web Developer</h4>
+                         My name is Jose Aldahir Moreno, I am a Software Engineer currently living in the Bay Area. I'm passionate about new and
+                        cutting edge technologies and looking for new oportunities to work with energetic teams. My Software Development background
+                        starts in 2013 when I first created my own Python tic-tac-toe game and since then I have immersed myself in different languages
+                        and frameworks. Contrasting my first basic python game, I have now worked on building many projects ranging from full stack
+                        web applications to iOS and Android software.</h5>
+                        <br>
+                        <a href="#" class="btn btn-black">Download Resume</a> 
+                        <!-- <a href="#" class="btn btn-black">Hire Me</a>  -->
+                    </div>
+                </div>
+                <!-- <div class="col-md-5 visible-md visible-lg">
+                    <div class="profile"> 
+                        <img src="images/portfolio/about.jpg" alt="profile img" class="img-responsive">
+                    </div>
+                </div> -->
+            </div>
+            <!--  row  end -->
+        </div>
+        <!--  container end -->
+    </section>
+    <!-- section about end -->
+
+    <!--  section services start -->
+    <section id="section-services" class="section-padding">
+        <div class="container skills-sec">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>Skills</h2> 
+                    </div>
+                </div>
+            </div>
+            <!--  row end -->
+
             <hr class="small">
             <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <!-- <i class="fa fa-circle fa-stack-2x"> -->
-                    <img src="img/icons/ruby-l.png">
-                    <!-- </i> -->
-                    <!-- <i class="fa fa-cloud fa-stack-1x text-primary"></i> -->
-                  </span>
-                  <h4>
-                    <strong>Ruby</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <!-- <i class="fa fa-circle fa-stack-2x"> -->
+                            <img src="images/icons/ruby-l.png">
+                            <!-- </i> -->
+                            <!-- <i class="fa fa-cloud fa-stack-1x text-primary"></i> -->
+                        </span>
+                        <h4>
+                            <strong>Ruby</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <!-- <i class="fa fa-circle fa-stack-2x"> -->
-                      <img src="img/icons/Ruby.png">
-                    <!-- </i> -->
-                    <!-- <i class="fa fa-cloud fa-stack-1x text-primary"></i> -->
-                  </span>
-                  <h4>
-                    <strong>Ruby on Rails</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <!-- <i class="fa fa-circle fa-stack-2x"> -->
+                            <img src="images/icons/Ruby.png">
+                            <!-- </i> -->
+                            <!-- <i class="fa fa-cloud fa-stack-1x text-primary"></i> -->
+                        </span>
+                        <h4>
+                            <strong>Ruby on Rails</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/js.png">
-                  </span>
-                  <h4>
-                    <strong>JavaScript</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/js.png">
+                        </span>
+                        <h4>
+                            <strong>JavaScript</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/react-native.png">
-                  </span>
-                  <h4>
-                    <strong>React.js</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/react-native.png">
+                        </span>
+                        <h4>
+                            <strong>React.js</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/Expo.png">
-                  </span>
-                  <h4>
-                    <strong>Expo</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/Expo.png">
+                        </span>
+                        <h4>
+                            <strong>Expo</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/react-native3.png">
-                  </span>
-                  <h4>
-                    <strong>React Native</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/react-native3.png">
+                        </span>
+                        <h4>
+                            <strong>React Native</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/redux.png">
-                  </span>
-                  <h4>
-                    <strong>Redux</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/redux.png">
+                        </span>
+                        <h4>
+                            <strong>Redux</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/html5.png">
-                  </span>
-                  <h4>
-                    <strong>HTML5</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/html5.png">
+                        </span>
+                        <h4>
+                            <strong>HTML5</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/css3.png">
-                  </span>
-                  <h4>
-                    <strong>CSS3</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/css3.png">
+                        </span>
+                        <h4>
+                            <strong>CSS3</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/Apollo.png">
-                  </span>
-                  <h4>
-                    <strong>Apollo Client</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/Apollo.png">
+                        </span>
+                        <h4>
+                            <strong>Apollo Client</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/GraphQL.png">
-                  </span>
-                  <h4>
-                    <strong>GraphQL</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/GraphQL.png">
+                        </span>
+                        <h4>
+                            <strong>GraphQL</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/icons/nodejs2.png">
-                  </span>
-                  <h4>
-                    <strong>Node.js</strong>
-                  </h4>
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/icons/nodejs2.png">
+                        </span>
+                        <h4>
+                            <strong>Node.js</strong>
+                        </h4>
+                    </div>
                 </div>
-              </div>
+            
             </div>
             <!-- /.row (nested) -->
-          </div>
-          <!-- /.col-lg-10 -->
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-box active"> <i class="fa fa-wordpress" aria-hidden="true"></i>
+                        <h4>WordPress</h4>
+                        <p>Generators on the Internet tend to repeat predefined</p>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-box"> <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <h4>Mobile app</h4>
+                        <p>Generators on the Internet tend to repeat predefined </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-box"> <i class="fa fa-code" aria-hidden="true"></i>
+                        <h4>psd to html</h4>
+                        <p>Generators on the Internet tend to repeat predefined </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-box"> <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <h4>customization</h4>
+                        <p>Generators on the Internet tend to repeat predefined</p>
+                    </div>
+                </div>
+            </div> -->
+            <!--  row end -->
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
+        <!--  container end -->
     </section>
+    <!--  section services end -->
 
-    <!-- Call to Action -->
-    <!-- <aside class="call-to-action bg-primary text-white">
-      <div class="container text-center">
-        <h3>The buttons below are impossible to resist.</h3>
-        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-      </div>
-    </aside> -->
+     <!-- start portfolio area -->
+    <section id="work" class="work section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-heading">
+                        <h2>My Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="work">
+                    <li class="filter" data-filter="all">all</li>
+                    <li class="filter" data-filter=".team">Team Engineer</li>
+                    <li class="filter" data-filter=".frontend">Front End</li>
+                    <li class="filter" data-filter=".fullstack">Full Stack</li>
+                </ul>
+            </div>
+            <div class="work-inner">
+                <div class="row work-posts">
+                    <!-- single work area-->
+                    <div class="col-md-4 col-sm-4 mix team">
+                        <div class="item" href="#portfolioModal1" data-toggle="modal">
+                            <a class="work-popup">
+                                <img src="images/icons/spotme-logo.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Team Engineer</h4>
+                                </div>
+                            </a>
+                        </div>
 
-    <!-- Map -->
-    <!-- <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section> -->
+                        <!-- <div class="portfolio-item first-gif" href="#portfolioModal1" data-toggle="modal">
+                            <a>
+                              <img class="img-portfolio img-fluid gif-fluid" src="images/icons/spotme-logo.png">
+                            </a>
+                        </div> -->
 
-    <!-- Footer -->
-    <footer>
-      <div class="container" id="contact">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h4>
-              <strong>Jose Aldahir Moreno</strong>
-            </h4>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fa fa-phone fa-fw"></i>
-                (510) 427-6943</li>
-              <li>
-                <i class="fa fa-envelope-o fa-fw"></i>
-                <a href="mailto:name@example.com">aldahirmoreno@gmail.com</a>
-              </li>
-            </ul>
-            <br>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="https://github.com/aldahir15">
-                  <i class="fa fa-github fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/jose-moreno-b4517960/">
-                  <i class="fa fa-linkedin fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://angel.co/jose-moreno">
-                  <i class="fa fa-angellist fa-fw fa-3x"></i>
-                </a>
-              </li>
-            </ul>
-            <hr class="small">
-            <p class="text-muted">Copyright &copy; Jose Aldahir Moreno 2017</p>
-          </div>
+                    </div>
+                    <!-- end single work area -->
+                    <!-- single work area -->
+                    <div class="col-md-4 col-sm-4 mix fullstack">
+                        <div class="item" href="#portfolioModal2" data-toggle="modal">
+                            <a class="work-popup">
+                                <img src="images/icons/strive-logo.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Full Stack</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="portfolio-item second-gif" href="#portfolioModal2" data-toggle="modal">
+                        <a>
+                            <img class="img-portfolio img-fluid" src="images/icons/strive-logo.png">
+                        </a>
+                    </div> -->
+
+                    <!-- end single work area -->
+                    <!-- single work area -->
+
+                    <div class="col-md-4 col-sm-4 mix frontend">
+                        <div class="item">
+                            <a class="work-popup" href="#portfolioModal3" data-toggle="modal">
+                                <img src="images/icons/infinity-logo.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Front End</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="portfolio-item second-gif" href="#portfolioModal2" data-toggle="modal">
+                        <a>
+                            <img class="img-portfolio img-fluid" src="images/icons/infinity-logo.png">
+                        </a>
+                    </div> -->
+                    <!-- end single work area-->
+                    <!-- single work area -->
+                    <!-- <div class="col-md-4 col-sm-4 mix development graphics">
+                        <div class="item">
+                            <a href="images/portfolio/1.jpg" class="work-popup">
+                                <img src="images/portfolio/1.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Graphics</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- end single work area -->
+                    <!-- single work area -->
+                    <!-- <div class="col-md-4 col-sm-4 mix development web">
+                        <div class="item">
+                            <a href="images/portfolio/1.jpg" class="work-popup">
+                                <img src="images/portfolio/1.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>logo design</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- end single work area -->
+                    <!-- single work area -->
+                    <!-- <div class="col-md-4 col-sm-4 mix webdesign development photography">
+                        <div class="item">
+                            <a href="images/portfolio/1.jpg" class="work-popup">
+                                <img src="images/portfolio/1.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>web development</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- end single work area -->
+                </div>
+            </div>
         </div>
-      </div>
-      <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
-        <i class="fa fa-chevron-up fa-fw fa-1x"></i>
-      </a>
+    </section>
+    <!-- / end start work area -->
+
+    <!-- section blog start -->
+
+    <!-- <section id="section-blog" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="feature-heading text-center">
+                        <h2>Latest Blog Post</h2> 
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <div class="feature-wrap">
+                        <div class="row"> -->
+
+                        <!-- blog one -->
+
+                            <!-- <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                        <img src="images/blog-image/1.jpg" class="img-responsive" alt="blog-image">
+                                    </div> -->
+
+                                    <!-- blog-headline -->
+
+                                    <!-- <div class="blog-headline">
+                                        <a href="single-post.html"><h4>Various versions have evolved</h4></a>
+                                    </div> -->
+
+                                    <!-- blog-content -->
+                                    
+                                    <!-- <div class="blog-content">
+                                        <span class="blog-info"><a href="#" class="blog-info">Posted by - Nipp</a> - <i class="fa fa-calendar" aria-hidden="true"></i> 2 February 2017 </span>
+                                        <p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures.</p>
+                                    </div> -->
+
+                                    <!-- blog-category -->
+
+                                    <!-- <div class="blog-category">
+                                        <a href="#">Wordpress</a>
+                                        <span>&nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> &nbsp;7</a>
+                                        <span>&nbsp;&nbsp; |&nbsp;&nbsp; </span>
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> &nbsp;12</a>
+                                        <span>&nbsp;&nbsp; | &nbsp;&nbsp;</span>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> &nbsp; 21</a>
+                                    </div> -->
+                                    
+                                <!-- </div> -->
+                                
+                            <!-- </div> -->
+
+                            <!-- blog two -->
+
+                            <!-- <div class="col-md-4 col-sm-12 col-xm-12 blog-color">
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                        <img src="images/blog-image/1.jpg" class="img-responsive" alt="blog-image">
+                                    </div> -->
+
+                                    <!-- blog-headline -->
+
+                                    <!-- <div class="blog-headline">
+                                        <a href="single-post.html"><h4>Various versions have evolved</h4></a>
+                                    </div> -->
+
+                                    <!-- blog-content -->
+
+                                    <!-- <div class="blog-content">
+                                        <span class="blog-info"><a href="#" class="blog-info">Posted by - Nipp</a> - <i class="fa fa-calendar" aria-hidden="true"></i> 3 February 2017 </span>
+                                        <p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures.</p>
+                                    </div> -->
+
+                                    <!-- blog-category -->
+
+                                    <!-- <div class="blog-category">
+                                        <a href="#">Wordpress</a>
+                                        <span>&nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> &nbsp;7</a>
+                                        <span>&nbsp;&nbsp; |&nbsp;&nbsp; </span>
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> &nbsp;12</a>
+                                        <span>&nbsp;&nbsp; | &nbsp;&nbsp;</span>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> &nbsp; 21</a>
+                                    </div> -->
+                                    
+                                <!-- </div>
+                            </div> -->
+
+                            <!-- blog three -->
+
+                            <!-- <div class="col-md-4 col-sm-12 col-xm-12 blog-color">
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                        <img src="images/blog-image/1.jpg" class="img-responsive" alt="blog-image">
+                                    </div> -->
+
+                                    <!-- blog-headline -->
+
+                                    <!-- <div class="blog-headline">
+                                        <a href="single-post.html"><h4>Various versions have evolved</h4></a>
+                                    </div> -->
+
+                                    <!-- blog-content -->
+
+                                    <!-- <div class="blog-content">
+                                        <span class="blog-info"><a href="#" class="blog-info">Posted by - Nipp</a> - <i class="fa fa-calendar" aria-hidden="true"></i> 4 February 2017 </span>
+                                        <p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures.</p>
+                                    </div> -->
+
+                                    <!-- blog-category -->
+
+                                    <!-- <div class="blog-category">
+                                        <a href="#">Wordpress</a>
+                                        <span>&nbsp;&nbsp; | &nbsp;&nbsp; </span>
+                                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> &nbsp;7</a>
+                                        <span>&nbsp;&nbsp; |&nbsp;&nbsp; </span>
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> &nbsp;12</a>
+                                        <span>&nbsp;&nbsp; | &nbsp;&nbsp;</span>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> &nbsp; 21</a>
+                                    </div> -->
+                                    
+                                <!-- </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!--  feature wrap end -->
+
+                <!-- </div> -->
+
+                <!--  col end -->
+
+            <!-- </div> -->
+
+            <!-- row end -->
+
+        <!-- </div> -->
+
+        <!-- container end -->
+
+    <!-- </section> -->
+    
+    <!-- section features end -->
+    
+    <!-- Section testimonial start -->
+    <!-- <section id="section-testimonial" class="parallax1">
+        <div class="background-overlay black"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" id="testimonial-carousel">
+                        <div class="carousel-inner">
+                            <div class="item "> <i class="fa fa-user"></i>
+                                <h4>People love us</h4>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. </p>
+                                <h5> - <strong>Adams</strong></h5> </div> -->
+                            <!-- item end -->
+                            <!-- <div class="item active"> <i class="fa fa-user"></i>
+                                <h4>People love us</h4>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. </p>
+                                <h5> - <strong>David Kraus</strong></h5> </div> -->
+                            <!-- item end -->
+                            <!-- <div class="item"> <i class="fa fa-user"></i>
+                                <h4>People love us</h4>
+                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. </p>
+                                <h5> - <strong>Ricky Martin</strong></h5> </div> -->
+                            <!-- item end -->
+                        <!-- </div> -->
+                        <!-- caorusel inner end -->
+                        <!-- Indicators -->
+                        <!-- <ol class="carousel-indicators">
+                            <li data-target="#testimonial-carousel" data-slide-to="0"></li>
+                            <li data-target="#testimonial-carousel" data-slide-to="1" class="active"></li>
+                            <li data-target="#testimonial-carousel" data-slide-to="2"> </li>
+                        </ol> -->
+                    <!-- </div> -->
+                    <!-- caorusel slide end -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- Row end -->
+        <!-- </div> -->
+        <!-- container end -->
+    <!-- </section> -->
+    <!-- section testimonial end -->
+    
+    <!-- section contact start -->
+    <section id="section-contact" class="section-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading contact-heading">
+                        <h2 class="text-center">Contact Me!</h2> 
+                    </div>
+                </div>
+                <div class="col-md-10 col-md-offset-1 henry-contact-form">
+                    <div class="henry-contact-form">
+                        <div class="col-md-7 henry-form">
+                            <div class="henry-form-area">
+                                <div class="henry-form">
+                                    <h2>Email Me</h2>
+                                </div>
+                               
+                                <form action="mail.php" method="POST" class="form-padding">
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="name"  class="form-control" required="required" placeholder="Full Name">
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                        <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="text" name="subject"  class="form-control" required="required" placeholder="subject">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="message" name="message" cols="30" rows="5" class="textarea-block form-control" placeholder="MESSAGE" required="required"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-5 henry-address">
+                            <!-- <div class="henry-address">
+                                <h2></h2>
+                                <p>Feel free to contact me in any of these </p>
+                            </div> -->
+
+                            <div class="calling-address">
+                                <i class="fa fa-github henry-phone"></i><a href="https://github.com/aldahir15"> github.com/aldahir15</a><br>
+                                <i class="fa fa-linkedin henry-phone"></i><a href="https://linkedin.com/in/jose-moreno-b4517960"> linkedin.com/in/jose-moreno-b4517960</a><br>
+                                <i class="fa fa-angellist henry-phone"></i><a href="https://angel.co/jose-moreno"> angel.co/jose-moreno</a><br>
+                                <i class="fa fa-phone henry-phone"></i> <span> +1 510 427 6943</span> <br>
+                                <i class="fa fa-envelope henry-phone"></i> <span> aldahirmoreno@gmail.com</span> <br>
+                                <i class="fa fa-map-marker henry-phone"></i> <span> San Francisco, CA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section contact end -->
+
+    <!-- section footer start -->
+    <footer id="section-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-link text-center">
+                    <!-- footer social media -->
+                        <!-- <ul class="list-inline nipp-social-icon">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                        </ul> -->
+                        <p class="copy">copyright &copy; <span>2017 Jose Moreno, All rights Reserved. </span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container end -->
     </footer>
+    <!-- section footer end -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.js"></script>
-
-  </body>
-
-  <!-- Portfolio Modals -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col-lg-11 mx-auto">
-            <div class="modal-body">
-              <h2>SpotMe</h2>
-              <img class="img-fluid img-centered" src="img/project/RubyOnRails.png" alt="">
-              <a href="https://aldahir15.github.io/SpotMeApp/">Live Link</a>
-              <p>A parking application where users can rent out their parking spots or pay to use other's. This project is an ongoing collaboration between me and other 
-                software engineers, my position was as a full stack engineer throughout it's inception. I was responsible for coordinating and developing the Ruby on Rails backend 
-                using PostgreSQL as well as implementing many of the core functionalities of the application such as the map components, overall navigation, and styling using React Native
-                alonside Expo for both iOS and Android development.
-              </p>
-              <h5><strong>Technologies used:</strong></h5>
-              <div class="row">
-
-                <div class="col-sm-5">
-                  <h6>
-                      <strong>Ruby on Rails</strong>
-                  </h6>
-                    <img src="img/icons/Ruby.png">
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>React Native</strong>
-                  </h6>
-                  <img src="img/icons/react-native3.png">
+                <div class="container modal-container">
+                    <div class="col-lg-11 mx-auto">
+                        <div class="modal-body">
+                            <h2>SpotMe</h2>
+                            <img class="img-fluid img-centered" src="images/project/RubyOnRails.png" alt="">
+                            <a href="https://aldahir15.github.io/SpotMeApp/">Live Link</a>
+                            <p>A parking application where users can rent out their parking spots or pay to use other's. This project
+                                is an ongoing collaboration between me and other software engineers, my position was as a full
+                                stack engineer throughout it's inception. I was responsible for coordinating and developing the
+                                Ruby on Rails backend using PostgreSQL as well as implementing many of the core functionalities
+                                of the application such as the map components, overall navigation, and styling using React Native
+                                alonside Expo for both iOS and Android development.
+                            </p>
+                            <h5>
+                                <strong>Technologies used:</strong>
+                            </h5>
+                            <div class="row modal-row">
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>Ruby on Rails</strong>
+                                    </h6>
+                                    <img src="images/icons/Ruby.png">
+                                </div>
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>React Native</strong>
+                                    </h6>
+                                    <img src="images/icons/react-native3.png">
+                                </div>
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>GraphQL</strong>
+                                    </h6>
+                                    <img src="images/icons/GraphQL.png">
+                                </div>
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>Apollo Client</strong>
+                                    </h6>
+                                    <img src="images/icons/Apollo.png">
+                                </div>
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>Expo</strong>
+                                        </h4>
+                                        <img src="images/icons/Expo.png">
+                                </div>
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>Redux</strong>
+                                    </h6>
+                                    <img src="images/icons/Redux.png">
+                                </div>
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>HTML5</strong>
+                                    </h6>
+                                    <img src="images/icons/html5.png">
+                                </div>
+    
+                                <div class="col-sm-3">
+                                    <h6>
+                                        <strong>CSS3</strong>
+                                    </h6>
+                                    <img src="images/icons/css3.png">
+                                </div>
+    
+                            </div>
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                                Close</button>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>GraphQL</strong>
-                  </h6>
-                  <img src="img/icons/GraphQL.png">
-                </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>Apollo Client</strong>
-                  </h6>
-                  <img src="img/icons/Apollo.png">
-                </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>Expo</strong>
-                  </h4>
-                  <img src="img/icons/Expo.png">
-                </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>Redux</strong>
-                  </h6>
-                  <img src="img/icons/Redux.png">
-              </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>HTML5</strong>
-                  </h6>
-                  <img src="img/icons/html5.png">
-                </div>
-                
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>CSS3</strong>
-                  </h6>
-                  <img src="img/icons/css3.png">
-                </div>
-
-              </div>
-              <button class="btn btn-success" type="button" data-dismiss="modal">
-                <i class="fa fa-times"></i>
-                Close</button>
             </div>
-          </div>
         </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-11 mx-auto">
-              <div class="modal-body">
-                <h2>Strive</h2>
-                <img class="img-fluid img-centered" src="img/project/react-native.png" alt="">
-                <a href="https://strivingtodobetter.herokuapp.com/#/">Live Link</a>
-                <p>
-                 Strive is a lifestyle application where users can create workouts, implement map paths, and create/follow events going on 
-                 near them. I was the sole full stack engineer for this project and the application was accomplished with a Ruby on Rails backend, PostgreSQL database, 
-                 and a React.JS frontend. Implemented secure login/signup authentication with the use of the BCrypt gem. Creation of Calendars, Workouts, map paths, and Events
-                through React.JS components. Developed Map components with Google Map API implementation where users are able to place
-                markers and build routes interactively. Efficient association between models, such as with workouts and running paths,
-                events and map locations, and calendars with workouts/events.
-                </p>
-              <h5>
-                <strong>Technologies used:</strong>
-              </h5>
-
-              <div class="row">
-              
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>Ruby on Rails</strong>
-                  </h6>
-                  <img src="img/icons/Ruby.png">
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-              
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>React</strong>
-                  </h6>
-                  <img src="img/icons/react-native.png">
+                <div class="container modal-container">
+                    <div class="row">
+                        <div class="col-lg-11 mx-auto">
+                            <div class="modal-body">
+                                <h2>Strive</h2>
+                                <img class="img-fluid img-centered" src="images/project/react-native.png" alt="">
+                                <a href="https://strivingtodobetter.herokuapp.com/#/">Live Link</a>
+                                <p>
+                                    Strive is a lifestyle application where users can create workouts, implement map paths, and create/follow events going on
+                                    near them. I was the sole full stack engineer for this project and the application was accomplished
+                                    with a Ruby on Rails backend, PostgreSQL database, and a React.JS frontend. Implemented secure
+                                    login/signup authentication with the use of the BCrypt gem. Creation of Calendars, Workouts,
+                                    map paths, and Events through React.JS components. Developed Map components with Google Map
+                                    API implementation where users are able to place markers and build routes interactively.
+                                    Efficient association between models, such as with workouts and running paths, events and
+                                    map locations, and calendars with workouts/events.
+                                </p>
+                                <h5>
+                                    <strong>Technologies used:</strong>
+                                </h5>
+    
+                                <div class="row">
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>Ruby on Rails</strong>
+                                        </h6>
+                                        <img src="images/icons/Ruby.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>React</strong>
+                                        </h6>
+                                        <img src="images/icons/react-native.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>Redux</strong>
+                                        </h6>
+                                        <img src="images/icons/Redux.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>HTML5</strong>
+                                        </h6>
+                                        <img src="images/icons/html5.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>CSS3</strong>
+                                        </h6>
+                                        <img src="images/icons/css3.png">
+                                    </div>
+    
+                                </div>
+    
+                                <button class="btn btn-success" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i>
+                                    Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>Redux</strong>
-                  </h6>
-                  <img src="img/icons/Redux.png">
-                </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>HTML5</strong>
-                  </h6>
-                  <img src="img/icons/html5.png">
-                </div>
-                
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>CSS3</strong>
-                  </h6>
-                  <img src="img/icons/css3.png">
-                </div>
-              
-              </div>
-
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-11 mx-auto">
-              <div class="modal-body">
-                <h2>My Inifinity is Biggeer Than Your Infinity</h2>
-                <img class="img-fluid img-centered" src="img/project/GraphQL.png" alt="">
-                <a href="https://aldahir15.github.io/MyInfinityIsBiggerThanYours/index.html#/">Live Link</a>     
-                <p>
-                  Created a tutorial focusing around set theory concepts such as cardinality, countability, and one-to-one correspondence
-                  to show how Cantor’s Diagonal Argument works. Implemented the ability for users to input answers throughout the tutorial. 
-                  Created Fluid animations with the help of the Anime.JS library. Developed a demo with the use of React.JS to allow users to create
-                  their own sets and show how Cantor’s Diagonal Argument applies to their own set. Used Jekyll to present the application
-                  on Github pages.
-                </p>
-
-              <h5>
-                <strong>Technologies used:</strong>
-              </h5>
-              
-              <div class="row">
-              
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>JavaScript</strong>
-                  </h6>
-                  <img src="img/icons/js.png">
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-              
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>React</strong>
-                  </h6>
-                  <img src="img/icons/react-native.png">
+                <div class="container modal-container">
+                    <div class="row">
+                        <div class="col-lg-11 mx-auto">
+                            <div class="modal-body">
+                                <h2>My Inifinity is Biggeer Than Your Infinity</h2>
+                                <img class="img-fluid img-centered" src="images/project/GraphQL.png" alt="">
+                                <a href="https://aldahir15.github.io/MyInfinityIsBiggerThanYours/index.html#/">Live Link</a>
+                                <p>
+                                    Created a tutorial focusing around set theory concepts such as cardinality, countability, and one-to-one correspondence to
+                                    show how Cantor’s Diagonal Argument works. Implemented the ability for users to input answers
+                                    throughout the tutorial. Created Fluid animations with the help of the Anime.JS library.
+                                    Developed a demo with the use of React.JS to allow users to create their own sets and show
+                                    how Cantor’s Diagonal Argument applies to their own set. Used Jekyll to present the application
+                                    on Github pages.
+                                </p>
+    
+                                <h5>
+                                    <strong>Technologies used:</strong>
+                                </h5>
+    
+                                <div class="row">
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>JavaScript</strong>
+                                        </h6>
+                                        <img src="images/icons/js.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>React</strong>
+                                        </h6>
+                                        <img src="images/icons/react-native.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>Redux</strong>
+                                        </h6>
+                                        <img src="images/icons/Redux.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>HTML5</strong>
+                                        </h6>
+                                        <img src="images/icons/html5.png">
+                                    </div>
+    
+                                    <div class="col-sm-5">
+                                        <h6>
+                                            <strong>CSS3</strong>
+                                        </h6>
+                                        <img src="images/icons/css3.png">
+                                    </div>
+    
+                                </div>
+    
+                                <button class="btn btn-success" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i>
+                                    Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>Redux</strong>
-                  </h6>
-                  <img src="img/icons/Redux.png">
-                </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>HTML5</strong>
-                  </h6>
-                  <img src="img/icons/html5.png">
-                </div>
-
-                <div class="col-sm-5">
-                  <h6>
-                    <strong>CSS3</strong>
-                  </h6>
-                  <img src="img/icons/css3.png">
-                </div>
-              
-              </div>
-
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-11 mx-auto">
-              <div class="modal-body">
-                <h2>Expo</h2>
-                <img class="img-fluid img-centered" src="img/project/Expo.png" alt="">
-                <p>
-                  We used Expo Client as a development platform to build our mobile application. This allow us to develop for both native iOS
-                  applications as well as Android mobile application at the same time as well as provided for easier deployment.
-                </p>
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container modal-container">
+                    <div class="row">
+                        <div class="col-lg-11 mx-auto">
+                            <div class="modal-body">
+                                <h2>Expo</h2>
+                                <img class="img-fluid img-centered" src="images/project/Expo.png" alt="">
+                                <p>
+                                    We used Expo Client as a development platform to build our mobile application. This allow us to develop for both native iOS
+                                    applications as well as Android mobile application at the same time as well as provided for
+                                    easier deployment.
+                                </p>
+                                <button class="btn btn-success" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i>
+                                    Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2>Apollo</h2>
-                <img class="img-fluid img-centered" src="img/project/Apollo.png" alt="">
-                <p>
-                  Our team used Apollo Client to interact with our GraphQL endpoint from our React Native mobile application. Apollo provides
-                  an abstracted network interface layer built on our front end to handle our application’s network request
-                  and response cycle. We choose to use Apollo because of the numerous optimizations and features Apollo utilizes,
-                  including data caching, subscriptions, and higher order UI components that are connected to the network interface.
-                  Our implementation of Apollo allowed us to take full advantage of the benefits of the GraphQL specification
-                  and sped up our development process.
-                </p>
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container modal-container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2>Apollo</h2>
+                                <img class="img-fluid img-centered" src="images/project/Apollo.png" alt="">
+                                <p>
+                                    Our team used Apollo Client to interact with our GraphQL endpoint from our React Native mobile application. Apollo provides
+                                    an abstracted network interface layer built on our front end to handle our application’s
+                                    network request and response cycle. We choose to use Apollo because of the numerous optimizations
+                                    and features Apollo utilizes, including data caching, subscriptions, and higher order UI
+                                    components that are connected to the network interface. Our implementation of Apollo allowed
+                                    us to take full advantage of the benefits of the GraphQL specification and sped up our development
+                                    process.
+                                </p>
+                                <button class="btn btn-success" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i>
+                                    Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <h2>PostgreSQL</h2>
-                <img class="img-fluid img-centered" src="img/project/PostgreSQL.png" alt="">
-                <p>
-                  Postgre is the relational database management system our team used to provide end users persisted data. PostgreSQL is a robust
-                  and greatly optimized technology that allows for highly relational data and database level protections against
-                  corrupted data. PostgreSQL was chosen by our team because it has an extensive track record as an extremely
-                  effective database technology as well as being well integrated with heroku, our preferred hosting provider
-                  for our back end application.
-                </p>
-                <button class="btn btn-success" type="button" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container modal-container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2>PostgreSQL</h2>
+                                <img class="img-fluid img-centered" src="images/project/PostgreSQL.png" alt="">
+                                <p>
+                                    Postgre is the relational database management system our team used to provide end users persisted data. PostgreSQL is a robust
+                                    and greatly optimized technology that allows for highly relational data and database level
+                                    protections against corrupted data. PostgreSQL was chosen by our team because it has an extensive
+                                    track record as an extremely effective database technology as well as being well integrated
+                                    with heroku, our preferred hosting provider for our back end application.
+                                </p>
+                                <button class="btn btn-success" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i>
+                                    Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 
+
+
+
+       <!-- ==============================================
+        JS
+        =============================================== -->
+
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/type-headline.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
